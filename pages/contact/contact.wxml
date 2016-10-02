@@ -1,0 +1,35 @@
+<view  stytle=" overflow-x: hidden; overflow-y: auto;">
+<view class="serach">
+<view class="serach_view_show" bindtap="bindtap"> 搜索</view>
+</view>
+ <toast hidden="{{isHiddenToast}}" stytle="display:flex  width:100rpx" duration="1000" bindchange="toastChange">
+    努力开发中...
+  </toast>
+<view  class="item">
+
+    <view class="item_left" class="top_image"  bindtap="isShowToast">
+        <image src="/images/friend.png" class="image"/>
+        <view class="mark" ><text class="text">新朋友</text></view>
+    </view>
+    <view class="item_right" class="top_image" bindtap="isShowToast">
+        <image src="/images/chart.png" class="image"/>
+        <view class="mark" ><text class="text-middle">群聊</text></view>
+    </view>
+    <view class="item_right" class="top_image" bindtap="isShowToast">
+        <image src="/images/public.png" class="image"/>
+        <view class="mark" ><text class="text">公众号</text></view>
+    </view>
+</view>
+<view  class="line"></view>
+  <view class="message__list">
+     <block wx:for="{{messages}}"  wx:for-index="idx">
+          <view class="item-tree" >
+            <image src="{{item.icon}}" class="tree_image"/>
+            <text class="title">{{item.groupName}}</text>
+             <text class="time">{{item.number}}</text>
+            </view>
+          <view  class="line" wx:if="{{idx==1}}"></view>
+         <view  class="line-narrow"wx:if="{{idx!=1}}" ></view>
+      </block>
+  </view>
+</view>
