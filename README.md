@@ -1,23 +1,5 @@
 # SmallAppForQQ
 
-   作者：Code4Android
-   
-   新浪微博：http://weibo.com/745687294
-   
-   CSDN  :    http://blog.csdn.net/xiehuimx?viewmode=contents
-   
-   简书   :   http://www.jianshu.com/users/d5b531888b2b/latest_articles
-
-
-##再次提醒，直接装官方软件,链接在下面。有什么问题可在博客留言.或者微博私信
-
-   
-
-创建微信小程序(微信应用号)，后续开发仿QQ应用程序
-
-实现微信小程序（微信应用号）QQ 
-
-进度更新：
 
 ![](https://github.com/xiehui999/SmallAppForQQ/blob/master/images/demo/qq.png)
 
